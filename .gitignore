@@ -1,0 +1,12 @@
+*auto.txt
+*.z64dd
+*.ndd
+*.ld
+mario-paint.bin
+build
+assets
+asm
+expected
+ctx.c
+ctx_includes.c
+__pycache__
