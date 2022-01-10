@@ -74,7 +74,12 @@ int32_t func_80000DAC(int32_t arg0) {
     return 0;
 }
 
-#pragma GLOBAL_ASM("asm/nonmatchings/60/func_80000DE4.s")
+int32_t func_80000DE4(int32_t arg0, int32_t arg1) {
+    func_8016A2E0(4);
+    func_801008B4(arg0, arg1);
+    func_80100924();
+    return 0;
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/60/func_80000E24.s")
 
